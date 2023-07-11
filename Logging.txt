@@ -1,2 +1,2 @@
-Jul 11, 2023 7:08:38 AM com.luv2code.springdemo.HelloSpringApp main
+Jul 11, 2023 7:23:39 AM com.luv2code.springdemo.HelloSpringApp main
 SEVERE: Info Log n
