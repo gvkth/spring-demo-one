@@ -6,7 +6,12 @@ public class TableTennisCoach implements Coach {
 		
 	
 		
+	public TableTennisCoach() {
+		System.out.println("TTCoach: inside no-arg constructor");
+		}
+
 	public TableTennisCoach(FortuneService fortuneService) {
+		
 		this.fortuneService = fortuneService;
 	}
 
@@ -18,6 +23,14 @@ public class TableTennisCoach implements Coach {
 
 	
 	
+	public FortuneService getFortuneService() {
+		return fortuneService;
+	}
+
+	public void setFortuneService(FortuneService fortuneService) {
+		this.fortuneService = fortuneService;
+	}
+
 	@Override
 	public String getDailyFortune() {
 		// TODO Auto-generated method stub

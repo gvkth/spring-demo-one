@@ -30,6 +30,11 @@ public class HelloSpringApp {
 		//let's call our new method for fortunes
 		System.out.println(theCoach.getDailyFortune());
 		
+		Coach theTTCoach = context.getBean("myTTCoach",Coach.class);
+		System.out.println(theTTCoach.getDailyWorkout());
+		System.out.println(theTTCoach.getDailyFortune());
+		
+		
 		//close the context
 		context.close();
 	}
