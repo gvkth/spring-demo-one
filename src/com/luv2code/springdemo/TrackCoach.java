@@ -7,6 +7,10 @@ public class TrackCoach implements Coach {
 	
 	
 		
+	public TrackCoach() {
+		super();
+	}
+
 	public TrackCoach(FortuneService fortuneService) {
 		this.fortuneService = fortuneService;
 	}
