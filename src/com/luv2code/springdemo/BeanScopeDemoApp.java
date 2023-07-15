@@ -14,6 +14,8 @@ public class BeanScopeDemoApp {
 		System.out.println(theCoach);
 		System.out.println(theCoach2);
 		System.out.println((theCoach==theCoach2)?"Singleton":"Prototype");
+		
+		context.close();
 	}
 
 }
